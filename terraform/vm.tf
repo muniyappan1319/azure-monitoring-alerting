@@ -3,7 +3,7 @@ resource "azurerm_linux_virtual_machine" "monitoring" {
   resource_group_name = azurerm_resource_group.monitoring.name
   location            = azurerm_resource_group.monitoring.location
 
-  size = "Standard_D2als_v7"
+  size = "Standard_D2als_v6"
 
   admin_username = var.admin_username
 
