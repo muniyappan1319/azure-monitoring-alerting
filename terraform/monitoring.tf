@@ -51,9 +51,9 @@ resource "azurerm_monitor_data_collection_rule" "monitoring" {
       sampling_frequency_in_seconds = 60
 
       counter_specifiers = [
-        "\\Processor(_Total)\\% Processor Time",
-        "\\Memory\\Available MBytes",
-        "\\LogicalDisk(_Total)\\% Free Space"
+        "\\Processor(*)\\% Processor Time",
+        "\\Memory(*)\\Available MBytes Memory",
+        "\\Memory(*)\\% Used Memory"
       ]
     }
 
