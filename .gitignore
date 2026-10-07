@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+
+# Terraform variable backups
+*.tfvars.backup
+*.auto.tfvars
+secret.tfvars
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# SSH private keys
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub

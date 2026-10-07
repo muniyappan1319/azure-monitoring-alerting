@@ -1,0 +1,5 @@
+location            = "Central India"
+resource_group_name = "rg-monitoring-prod"
+vm_name             = "vm-monitoring-prod"
+workspace_name      = "law-monitoring-prod"
+admin_username      = "azureadmin"
